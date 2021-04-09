@@ -1,0 +1,32 @@
+.brends {
+    margin-top: 20px;
+    &__title {
+        text-align: center;
+    }
+    &__container {
+        display: flex;
+        margin-top: 20px;
+        @media (min-width: 768px) {
+            width: 768px;
+        }
+        @media (min-width: 1440px) {
+            width: 1440px;
+        }
+        &--logo {
+            @media (min-width: 768px) {
+                width: 200px;
+            }
+            @media (min-width: 1440px) {
+                width: 400px;
+            }
+        }
+        &--description {
+            @media (min-width: 768px) {
+                margin-left: 100px;
+            }
+            @media (min-width: 1440px) {
+                margin-left: 400px;
+            }
+        }
+    }
+}
